@@ -31,8 +31,7 @@ export function App() {
   var currentMenuItems = data.filter(item => (
     item.food_category == category && item.restaurant == restaurant
   ));
-  console.log('currentMenuItems: ', currentMenuItems);
-  return (
+    return (
     <main className="App">
       {/* CATEGORIES COLUMN */}
       <div className="CategoriesColumn col">
